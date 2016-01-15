@@ -1,0 +1,17 @@
+{
+  "name": "cassbot",
+  "script": "cassbot.js",
+  "env": {
+    "DEBUG": true,
+    "TOKEN": "xyz123",
+    "SSH_USERNAME": "centos",
+    "SSH_KEY": "/Users/thinkdevcode/somekey.pem",
+    "NODETOOL_PATH": "/opt/cassandra/bin/nodetool",
+    "LOG_PATH": "/logs/cassandra/system.log",
+    "NODES": [
+      "127.0.0.1",
+      "0.0.0.0",
+      "10.0.0.1"
+    ]
+  }
+}

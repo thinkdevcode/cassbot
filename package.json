@@ -1,0 +1,28 @@
+{
+  "name": "cassbot",
+  "version": "1.0.0",
+  "description": "Slack bot that integrates Cassandra via botkit and ssh-exec",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkdevcode/cassbot.git"
+  },
+  "keywords": [
+    "bot",
+    "slack",
+    "cassandra"
+  ],
+  "author": "Eugene Alfonso (thinkdevcode)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkdevcode/cassbot/issues"
+  },
+  "homepage": "https://github.com/thinkdevcode/cassbot#readme",
+  "dependencies": {
+    "botkit": "0.0.5",
+    "ssh-exec": "^1.4.0"
+  }
+}
