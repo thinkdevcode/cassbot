@@ -31,7 +31,8 @@ var commands = [
   {command: '(?:run.*ring)',            response: buildCmdResponse(`${process.env.NODETOOL_PATH} ring`)},
   {command: '(?:run.*compactionstats)', response: buildCmdResponse(`${process.env.NODETOOL_PATH} compactionstats`)},
   {command: '(?:run.*netstats)',        response: buildCmdResponse(`${process.env.NODETOOL_PATH} netstats`)},
-  {command: '(?:run.*gossipinfo)',      response: buildCmdResponse(`${process.env.NODETOOL_PATH} gossipinfo`)}
+  {command: '(?:run.*gossipinfo)',      response: buildCmdResponse(`${process.env.NODETOOL_PATH} gossipinfo`)},
+  {command: '(?:run.*tpstats)',         response: buildCmdResponse(`${process.env.NODETOOL_PATH} tpstats`)}
 ];
 
 commands.forEach((cmd) => {
